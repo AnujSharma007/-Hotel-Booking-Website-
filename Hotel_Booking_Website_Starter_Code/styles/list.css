@@ -1,0 +1,25 @@
+html,body{
+    height: 100%;
+    margin: 0px;
+    background-color:#e0e0e0;
+}
+header{
+    background-color: rosybrown;
+    
+}
+footer{
+    background-color: rosybrown;
+   
+}
+
+
+#divv{
+    margin: 2%;
+    width: 35%;
+    background-color: rgb(132,136,139);
+}
+
+img{
+    top: 0%;
+    left: 0%;
+}
