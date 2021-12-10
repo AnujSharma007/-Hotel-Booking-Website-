@@ -1,17 +1,8 @@
-html,body{
-    height: 100%;
-    margin: 0px;
-    background-color:#e0e0e0;
-}
-header{
-    background-color: rosybrown;
-    
-}
-footer{
-    background-color: rosybrown;
-   
+
+.para{
+    margin-right: 2%;
 }
 #listsec{
-    margin-top: 2%;
+    margin-top: 6%;
     margin-left: 4%;
 }
