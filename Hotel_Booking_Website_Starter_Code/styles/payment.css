@@ -1,11 +1,33 @@
 #div3{
-        background-color: rgb(132, 136, 139);
-        height: 20%;
-        width: 50%;
+    display: flex;
+    
         margin-top:90px ;
-        margin-left: 380px;
-        
+        margin-left: 380px;  
 }
+
+.radison{
+    display: flex;
+    height: 300px;
+    width: 270px;
+    background-size: cover;
+}
+
+.container{
+    background-color: rgb(132, 136, 139);
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    height: 20%;
+    width: 50%;
+}
+
+.maincontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 150px;
+}
+
 
 .paynow{
     margin-bottom: 90px;
@@ -16,14 +38,40 @@
     color: black;
 }
 
+.detail{
+    margin-top: 7px;
+    display: inline-block;
+    
+}
+
+.paynow{
+    margin-top: 80px;
+}
+
+.cost{
+    margin-top: 60px;
+   display: inline-block;
+   
+}
+
 
 #d3{
     margin: 2%;
-}
+} 
   
 #table{
     margin: 2%;
     border: 1px solid black;
     border-radius: 10px;
-    padding: 1% 1%;
+    margin-bottom: 130px;
+    height: 200px;
+    background-color: rosybrown;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.text{
+    margin-left: 40px;
+    margin-top: 90px;
 }

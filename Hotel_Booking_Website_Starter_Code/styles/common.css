@@ -7,10 +7,9 @@ html{
 
 .span{
     text-decoration: none;
-    color: rgb(48, 46, 46);
-    float: right; 
+    color: rgb(48, 46, 46); 
     margin: 1.2%;   
-}
+} 
 
 .pf{
     font-size: 10px;
@@ -35,6 +34,8 @@ body{
 }
 
 header{
+    display: flex;
+    justify-content: space-between;
     background-color: rosybrown;
     width: 100%;
     position: fixed;

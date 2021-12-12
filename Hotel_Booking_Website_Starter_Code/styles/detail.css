@@ -5,4 +5,51 @@
 #listsec{
     margin-top: 6%;
     margin-left: 4%;
+} 
+.maincontainer{
+    display: flex;
+    border: 1px solid black;
+    margin-right: 4%;
+}
+
+.container{
+    display: flex;
+}
+
+.radison{
+    display: flex;
+    height: 350px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 180px;
+}
+
+input{
+    width: 300px;
+}
+
+label{
+    width: 60px;
+    display: inline-block;
+    margin: 20px;
+}
+
+.heading{
+    font-family: cursive;
+    font-weight: bold;
+}
+
+form{
+   margin-top: 30px;
+}
+
+.booknow{
+    width: 80px;
+    padding: 2%;
+}
+
+.con2{
+    padding-left:60px ;
+    margin-left: 250px;
+    border-left: 1px solid black;
 }

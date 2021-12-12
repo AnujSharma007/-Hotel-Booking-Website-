@@ -11,8 +11,12 @@
             <a class="span" href="login.html" target="_blank"><span class="realspan">Login</span></a>  
         </header>
         <section id="listsec">
-            <div>  
-                <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" height="600" width="600" alt="Radisson Blu Hotel">
+            <div class="maincontainer"> 
+                <div class="container"> 
+                    <div class="con1">
+                <img class="radison" src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt="Radisson Blu Hotel">
+                </div>
+                <div class="con2">
                 <form action="payment.html" method="post">
                     <label for="adult">Adults:</label>
                     <input type="number" value="1" min="1" required/>
@@ -29,12 +33,18 @@
                     <label for="total">Total</label>
                     <input type="number" name="total" id="total" disabled>
                     <br/>
-                    <input type="submit" value="Book Now">
+                    <label for="book"></label>
+                    <input class="booknow" type="submit" value="Book Now">
                 </form>
+            </div>
+            </div>
+                </div>
+                
+                <div class="description">
                 <p><h3>Radisson Blu Hotel</h3></p>
-                <p>RATING</p>
+                <p class="heading">RATING</p>
                 <p>5 Star</p>
-                <p>AMENTIES</p>
+                <p class="heading">AMENTIES</p>
                 <ul>
                     <li>Room Service</li>
                     <li>Restaurant</li>
@@ -42,7 +52,7 @@
                     <li>Fitness Center</li>
                     <li>Pool</li>
                 </ul>
-                <p>Description</p>
+                <p class="heading">Description</p>
                 <p class="para">Lorem Ipsum is simply dummy text of the printing and typesetting industry The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet.Lorem Ipsum is simply dummy text The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet.Lorem Ipsum is simply dummy text of the The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet.</p>
             </div>
         </section>
