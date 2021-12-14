@@ -1,31 +1,29 @@
-#div3{
+.radi_img{
     display: flex;
-    
-        margin-top:90px ;
-        margin-left: 380px;  
+    margin-left: 0px;
 }
 
 .radison{
     display: flex;
     height: 300px;
     width: 270px;
-    background-size: cover;
+    margin-left: 0%;
 }
 
 .container{
     background-color: rgb(132, 136, 139);
     display: flex;
     flex-direction: row;
-    margin: 0 auto;
     height: 20%;
-    width: 50%;
+    width: 45%;
 }
 
-.maincontainer{
+.maincontainer{ 
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-top: 150px;
+    background-color: #e0e0e0;
 }
 
 
@@ -39,7 +37,7 @@
 }
 
 .detail{
-    margin-top: 7px;
+    margin-top: 0.2%;
     display: inline-block;
     
 }
@@ -72,6 +70,6 @@
 }
 
 .text{
-    margin-left: 40px;
+    margin-left: 30px;
     margin-top: 90px;
 }

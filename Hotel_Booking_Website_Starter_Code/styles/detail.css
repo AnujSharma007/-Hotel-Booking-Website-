@@ -3,17 +3,29 @@
     margin-right: 2%;
 }
 #listsec{
+    background-color: #e0e0e0;
     margin-top: 6%;
-    margin-left: 4%;
+
 } 
 .maincontainer{
     display: flex;
     border: 1px solid black;
     margin-right: 4%;
+    margin-left: 4%;
 }
 
 .container{
     display: flex;
+}
+
+.gap{
+    background-color: #e0e0e0;
+    opacity: 0;
+}
+
+.gap1{
+    background-color: #e0e0e0;
+    opacity: 0;
 }
 
 .radison{
@@ -21,9 +33,9 @@
     height: 350px;
     margin-top: 30px;
     margin-bottom: 30px;
-    margin-left: 180px;
+    margin-left: 60px;
 }
-
+ 
 input{
     width: 300px;
 }
@@ -32,6 +44,7 @@ label{
     width: 60px;
     display: inline-block;
     margin: 20px;
+    margin-left: 20px;
 }
 
 .heading{
@@ -50,6 +63,15 @@ form{
 
 .con2{
     padding-left:60px ;
-    margin-left: 250px;
+    display: inline-block;
     border-left: 1px solid black;
+    margin-left: 30px;
+}
+
+.con1{
+    margin-right: 6%;
+}
+
+#bk{
+    margin-top: 6px;
 }

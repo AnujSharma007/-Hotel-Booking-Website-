@@ -2,8 +2,28 @@
 .sec{
     display: flex;
     flex-wrap: wrap;
+} 
+
+.content{
+    background-color: #e0e0e0;
 }
 
+#list-view-button{
+    margin-top: 10px;
+}
+
+#map-view-button{
+    margin-top: 10px;
+}
+
+.Hcard:hover{
+    background-color: rosybrown;
+}
+
+.btn{
+    margin: 10px;
+}
+ 
 .Hcard{
     display: flex;
     align-items: flex-start;
@@ -12,15 +32,13 @@
     background-color:  lightgrey;
 }
 
+
 .div12{
     display: flex;
+    justify-content: space-evenly;
     flex-direction: column;
 }
 
-.anchor{
-    text-decoration: none;
-    color: black;
-}
 
 .imghotel{
     margin-right: 30px;
@@ -35,7 +53,9 @@
 .ul{
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-top: 80px;
+    
 }
 
 #d1{
