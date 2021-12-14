@@ -1,27 +1,18 @@
-.radi_img{
-    display: flex;
-    margin-left: 0px;
-}
-
 .radison{
     display: flex;
     height: 300px;
     width: 270px;
-    margin-left: 0%;
 }
 
 .container{
     background-color: rgb(132, 136, 139);
     display: flex;
-    flex-direction: row;
-    height: 20%;
     width: 45%;
 }
 
 .maincontainer{ 
     display: flex;
     flex-direction: column;
-    justify-content: center;
     margin-top: 150px;
     background-color: #e0e0e0;
 }
@@ -54,7 +45,7 @@
 
 
 #d3{
-    margin: 2%;
+    margin: 1%;
 } 
   
 #table{

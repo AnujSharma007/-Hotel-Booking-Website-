@@ -18,6 +18,8 @@
     display: flex;
 }
 
+
+
 .gap{
     background-color: #e0e0e0;
     opacity: 0;
@@ -65,13 +67,18 @@ form{
     padding-left:60px ;
     display: inline-block;
     border-left: 1px solid black;
-    margin-left: 30px;
+    margin-left: 60px;
 }
 
 .con1{
-    margin-right: 6%;
+    margin-top: 5px;
+    margin-right: 2%;
 }
 
 #bk{
     margin-top: 6px;
+}
+
+.sliderimage{
+    max-height: 350px;
 }

@@ -57,6 +57,11 @@ header{
     right: 0px;
     left: 0px;
 }
+
+.checked{
+  color: rgb(226, 226, 24);
+}
+
 footer{
     display: flex;
     
