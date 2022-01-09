@@ -1,0 +1,67 @@
+.radison{
+    height: 300px;
+    margin-left: 0%;
+}
+
+
+
+.containerNew{
+    display: flex;
+    background-color: rgb(132, 136, 139);
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+
+.maincontainer{ 
+    margin-top: 150px;
+    background-color: #e0e0e0;
+}
+ 
+
+.paynow{
+    margin-bottom: 90px;
+}
+
+.pn{
+    text-decoration: none;
+    color: black;
+}
+
+.detail{
+    margin-top: 0.2%;
+    display: inline-block;
+    
+}
+
+.paynow{
+    margin-top: 80px;
+}
+
+.cost{
+    margin-top: 60px;
+   display: inline-block;
+   
+}
+
+
+#d3{
+    margin: 1%;
+} 
+  
+#table{
+    margin: 1%;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 130px;
+    height: 200px;
+    background-color: rosybrown;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.text{
+    margin-left: 30px;
+    margin-top: 90px;
+}

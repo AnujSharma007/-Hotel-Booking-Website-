@@ -1,0 +1,76 @@
+
+.sec{
+    display: flex;
+    flex-wrap: wrap;
+} 
+ 
+.content{
+    background-color: #e0e0e0;
+}
+
+#list-view-button{
+    margin-top: 10px;
+}
+
+
+
+#map-view-button{
+    margin-top: 10px;
+}
+
+.Hcard:hover{
+    background-color: rosybrown;
+}
+
+.btn{
+    margin: 10px;
+}
+ 
+.Hcard{
+    display: flex;
+    align-items: flex-start;
+    margin: 60px;
+    width: 40%;
+    background-color:  lightgrey;
+}
+
+
+.div12{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+
+.imghotel{
+    margin-right: 30px;
+    top: 0%;
+    left: 0%;
+    bottom: 0%;
+    height: 250px;
+    width: 250px;
+    background-size: cover;
+}
+
+.ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    
+}
+
+#d1{
+    margin: 10px;
+}
+
+.listmap{
+    text-decoration: none;
+    color: rgb(48, 46, 46);
+}
+
+
+.gapcreation{
+    background-color:#e0e0e0;
+    display: flex;
+}

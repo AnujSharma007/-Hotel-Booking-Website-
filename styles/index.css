@@ -1,0 +1,159 @@
+.view{
+    bottom: 0px;
+}
+
+.maincontainer1{
+    display: flex;
+    background-color:#e0e0e0;
+    justify-content: space-evenly;
+}
+
+.maincontainer2{
+    display: flex;
+    background-color:#e0e0e0;
+    justify-content: space-evenly;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    background-color:#e0e0e0;
+    justify-content: center;
+}
+
+.m1{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+
+
+#sign-in-button1{
+    display: flex;
+    align-items: baseline;
+}
+
+.split{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.card{
+    position: absolute;
+    display: flex;
+
+}
+
+#hotelcard{
+    position: relative;
+    display: flex;
+    
+    box-shadow:10px 10px 10px rgb(65, 63, 63);
+    margin-top: 30px;
+    border-radius: 25%;
+    height: 150px;
+    width: 150px;
+}
+ 
+.overlay{
+    position: absolute;
+    top: 57.2%;
+    margin-left: 0%;
+    border-radius: 25%;
+    height: 150px; 
+    width: 150px;
+    background: rgba(0, 0, 0, 0.5);
+    background-size: cover;
+    color: #f1f1f1;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.overlay:hover{
+    opacity: 1;
+}
+
+
+
+.divspace{
+    opacity: 0;
+}
+
+.alpha{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay1{
+    position: absolute;
+    top: 84.1%;
+    margin-left: 0%;
+    border-radius: 25%;
+    height: 150px;
+    width: 150px;
+    background: rgba(0, 0, 0, 0.5);
+    background-size: cover;
+    color: #f1f1f1;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.overlay1:hover{
+    opacity: 1;
+}
+
+
+.alpha1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec1{
+    background-image: url("https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg");
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   
+}
+
+
+.viewmore{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.city{
+    display: flex;
+    justify-content: center;
+    border-radius: 12px;
+    border: 1px transparent;
+    width: 400px;
+    height: 40px;
+    font-size: 16px;
+    padding: 10px;
+    margin-top: 207px;
+    margin-bottom: 147px;
+    
+}
+
+.sec1{
+    display: flex;
+    border-radius: 12px;
+   border: 1px transparent;
+   border-color: white;
+   background-color: #f1f1f1;
+   padding: 10px;
+   font-size: 16px;
+   justify-content: center;
+
+}

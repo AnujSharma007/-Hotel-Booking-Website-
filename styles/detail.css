@@ -1,0 +1,97 @@
+
+.para{
+    margin-right: 2%;
+}
+#listsec{
+    background-color: #e0e0e0;
+    margin-top: 6%;
+
+} 
+
+#header{
+    position: fixed;
+}
+
+.maincontainer{
+    display: flex;
+    border: 1px solid black;
+    margin-right: 4%;
+    margin-left: 4%;
+}
+
+.container{
+    display: flex;
+}
+
+.content{
+    overflow: auto;
+}
+
+
+.gap{
+    background-color: #e0e0e0;
+    opacity: 0;
+}
+
+.gap1{
+    background-color: #e0e0e0;
+    opacity: 0;
+}
+
+.radison{
+    display: flex;
+    height: 350px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 60px;
+}
+ 
+input{
+    width: 300px;
+}
+
+label{
+    width: 60px;
+    display: inline-block;
+    margin: 20px;
+    margin-left: 20px;
+}
+
+.heading{
+    font-family: cursive;
+    font-weight: bold;
+}
+
+form{
+   margin-top: 30px; 
+}
+
+.header{
+    position: fixed;
+}
+
+.booknow{
+    width: 80px;
+    padding: 2%;
+} 
+
+.con2{
+    padding-left:60px ;
+    display: inline-block;
+    border-left: 1px solid black;
+    margin-left: 60px;
+    margin-bottom: 10px;
+}
+
+.con1{
+    margin-top: 5px;
+    margin-right: 2%;
+}
+
+#bk{
+    margin-top: 6px;
+}
+
+.sliderimage{
+    max-height: 350px;
+}
